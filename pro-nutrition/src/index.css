@@ -1,0 +1,84 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  text-align: center;
+}
+
+.Heading{
+  font-family: 'xyz';
+}
+
+@font-face {
+  font-family: 'xyz';
+  src: url('./assets/TrueType/SFProDisplay-Bold.ttf');
+}
+#search-box{
+  padding: 15px;
+  border-radius: 15px;
+  width: 18%;
+  border: none;
+}
+.foodbox-main{
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+  border: 1px solid rgb(252, 255, 171);
+  border-radius: 25px;
+}
+
+.foodbox-main-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.foodbox-main-left img{
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.foodbox-main-left-1{
+  line-height: 120%;
+}
+
+.foodbox-main-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.add{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.reset{
+  font-family: 'xyz';
+  padding: 8px;
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.number{
+  padding: 10px;
+  width: 60px;
+  border: none;
+  border-radius: 8px;
+}
